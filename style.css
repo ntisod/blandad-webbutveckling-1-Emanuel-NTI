@@ -54,3 +54,12 @@ button {
   hr{
       color: #dee4e7;
   }
+
+  a{
+      color: white;
+      border: 8px white;
+      border-radius: 5px;
+      padding: 3px;
+      margin: 5px;
+      text-decoration: none;
+  }
