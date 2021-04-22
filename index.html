@@ -3,33 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Emanuels portfolio</title>
-    <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/aed9536860.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="row col-12">
-        <h1>Emanuels portfolio</h1>
-    </header>
-    <div class="row">
-    <nav class="col-3 col-s-3">
-        <a href="om-mig.html" target="_blank">min Om mig sida.</a>
-        <a href="recept.html" target="_blank">min Recept sida.</a>
-        <a href="javascript-exempel.html" target="_blank">mitt java javascript-exempel</a>
-        <a href="formular.html" target="_blank">Ett formular sida</a>
-    </nav>
-    <main class="col-6 col-s-9">
-        <h2>Rubrik</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia eius, praesentium magnam expedita illo velit? Ex quos consequatur velit, enim, quidem maiores fuga sunt pariatur qui, autem facere est animi.
-        </p>
-    </main>
-    <aside class="col-3 col-s-12">
-        <h2>Reklam</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui architecto labore dolorum assumenda sint quasi totam quis, asperiores expedita reprehenderit quidem cumque. Aut facilis maxime commodi sed nemo dolorem obcaecati!</p>
-    </aside>
+</div>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="https://ntisod.github.io/blandad-webbutveckling-1-Emanuel-NTI/om-mig.html">Om mig</a>
+    <br>
+    <a href="https://ntisod.github.io/blandad-webbutveckling-1-Emanuel-NTI/recept.html">Recept</a>
+    <br>
+    <a href="#">Formulär</a>
+    <br>
+    <a href="#">Contact</a>
+  </div>
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "220px";
+          document.getElementById("main").style.marginLeft = "220px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+  </div>
+<div class="prof-box">
+    <img src="3x.gif" alt="cat" class="prof-pic">
+    <h1 class="glow">Emanuel Faraj</h1>
+    <div class="line-break"></div>
+    <p>| Student Te-19 |</p>
+    <div class="line-break"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maiores architecto assumenda libero eos, minima amet voluptate impedit commodi suscipit ea quis. Sequi iusto, consequuntur labore minus cumque corporis fugiat.</p>
+    <div class="soc-icons">
+        <a href="https://github.com/Emanuel-NTI" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.reddit.com/user/Mano1188/" target="_blank"><i class="fab fa-reddit"></i></a>
+        <a href="https://twitter.com/Mano0308" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/mano__1188/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
-    <footer class="col-12">
-        Copyright (c) 2020, Emanuel Faraj <a href="https://www.ntigymnasiet.se/sodertalje/">NTI Gymnasiet Södertälje.</a> 
-    </footer>
 </body>
 </html>

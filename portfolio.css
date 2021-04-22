@@ -1,0 +1,135 @@
+html {
+background: url(wp3209489.jpg) no-repeat center center fixed;
+}
+
+.prof-box {
+width: 450px;
+height: 450px;
+background-color: rgba(100, 72, 77, 0.7);
+padding: 40px;
+color: white;
+margin: 0 auto;
+margin-top: 100px;
+text-align: center;
+}
+
+.prof-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+h1 {
+    font-weight: 100;
+    letter-spacing: 6;
+    font-size: 40px;
+}
+
+p {
+    font-weight: 100;
+    letter-spacing: 1;
+}
+
+.line-break {
+    width: 140px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+
+.soc-icons {
+    font-size: 40px;
+}
+
+.soc-icons a {
+    color: white;
+}
+
+.soc-icons a:hover {
+    color: #ffb7c5;
+}
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgba(100,72,77,0.8); 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #ffb7c5;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #ffb7c5;
+    color: white;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+.glow {
+
+    color: white;
+    text-align: center;
+    -webkit-animation: glow 1s infinite alternate;
+    -moz-animation: glow 1s infinite alternate;
+    animation: glow 1s  infinite alternate;
+}
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 15px #ffb7c5, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+        }
+        to {
+          text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6, 0 0 450px #ff4da6;
+    }
+}
