@@ -7,18 +7,18 @@
     <title>Emanuels portfolio</title>
     <link rel="stylesheet" type="text/css" href="portfolio.css">
     <script src="https://kit.fontawesome.com/aed9536860.js" crossorigin="anonymous"></script>
+    <script src="java-klocka.js"></script>
 </head>
-<body>
-</div>
+<body onload="startTime()">
 <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="https://ntisod.github.io/blandad-webbutveckling-1-Emanuel-NTI/om-mig.html">Om mig</a>
+    <a href="https://ntisod.github.io/blandad-webbutveckling-1-Emanuel-NTI/om-mig.html" target="_blank">Om mig</a>
     <br>
-    <a href="https://ntisod.github.io/blandad-webbutveckling-1-Emanuel-NTI/recept.html">Recept</a>
+    <a href="https://ntisod.github.io/blandad-webbutveckling-1-Emanuel-NTI/recept.html" target="_blank">Recept</a>
     <br>
-    <a href="#">Formulär</a>
+    <a href="#" target="_blank">Formulär</a>
     <br>
-    <a href="#">Contact</a>
+    <a href="#" target="_blank">Contact</a>
   </div>
   <div id="main">
     <button class="openbtn" onclick="openNav()">&#9776;</button>
@@ -34,7 +34,9 @@
         }
         </script>
   </div>
-<div class="prof-box">
+<div class="glow" id="klocka"></div>
+<div class="fixed">
+    <div class="prof-box">
     <img src="3x.gif" alt="cat" class="prof-pic">
     <h1 class="glow">Emanuel Faraj</h1>
     <div class="line-break"></div>
@@ -47,5 +49,9 @@
         <a href="https://twitter.com/Mano0308" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="https://www.instagram.com/mano__1188/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
+</div>
+<footer>
+  <p>© <a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank">Emanuel</a> 2021. COPYRIGHT.</p>
+</footer>
 </body>
 </html>

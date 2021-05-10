@@ -6,11 +6,17 @@ background: url(wp3209489.jpg) no-repeat center center fixed;
 width: 450px;
 height: 450px;
 background-color: rgba(100, 72, 77, 0.7);
-padding: 40px;
+padding: 22px;
 color: white;
 margin: 0 auto;
-margin-top: 100px;
+margin-top: 20px;
 text-align: center;
+border-radius: 5px;
+}
+
+div.fixed{
+    position: fixed center;
+    
 }
 
 .prof-pic {
@@ -93,15 +99,16 @@ p {
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: white;
-    color: black;
+    background-color: #ffb7c5;
+    color: white;
     padding: 10px 15px;
     border: none;
+    border-radius: 5px;
   }
   
   .openbtn:hover {
-    background-color: #ffb7c5;
-    color: white;
+    background-color: white;
+    color: black;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -133,3 +140,28 @@ p {
           text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6, 0 0 450px #ff4da6;
     }
 }
+
+footer {
+  text-align: right;
+  color: white;
+  padding: top 2%;
+  margin-top: 65px;
+  font-size: 110%;
+}
+
+footer a{
+color: white;
+}
+
+footer a:hover{
+  color: #ffb7c5;
+}
+
+#klocka{
+  color: white;
+  text-align: center;
+  font-size: 400%;
+  margin-top: -50px;
+  padding-bottom: 20px;
+}
+
